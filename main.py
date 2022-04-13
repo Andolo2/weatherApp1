@@ -1,6 +1,6 @@
 import requests  # For updating req from API
 
-API_KEY = "5f35ee86aacae6c71b37204194452b88"
+API_KEY = "XXXX" # Could not publish the API to github
 URL = "https://api.openweathermap.org/data/2.5/weather" # Base url
 
 city = input("Enter a city of your choice: ")
@@ -20,3 +20,4 @@ if response.status_code == 200: # Check if the https error code is 200 (OK) in c
 
 else:
     print("Could not retrieve information, check API key ")
+
